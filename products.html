@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksiyon | Sand-line</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Sandline.</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-lang="nav_home">Ana Sayfa</a></li>
+                <li><a href="about.html" data-lang="nav_about">Hakkımızda</a></li>
+                <li><a href="products.html" data-lang="nav_products">Koleksiyon</a></li>
+                <li>
+                    <select id="lang-switch" class="lang-select">
+                        <option value="tr">TR</option>
+                        <option value="en">EN</option>
+                        <option value="nl">NL</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 data-lang="prod_title">SS/24 Koleksiyonu</h1>
+        <p data-lang="prod_subtitle">En yeni tasarımlarımızı keşfedin. Zarif ve zamansız parçalar.</p>
+        <br>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=600&auto=format&fit=crop" alt="Linen Jacket">
+                <div class="product-info">
+                    <span data-lang="prod_1">Keten Ceket</span>
+                    <span>$120</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=600&auto=format&fit=crop" alt="Cotton Shirt">
+                <div class="product-info">
+                    <span data-lang="prod_2">Oxford Gömlek</span>
+                    <span>$85</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=600&auto=format&fit=crop" alt="Silk Dress">
+                <div class="product-info">
+                    <span data-lang="prod_3">İpek Elbise</span>
+                    <span>$240</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=600&auto=format&fit=crop" alt="Wool Trousers">
+                <div class="product-info">
+                    <span data-lang="prod_4">Yün Pantolon</span>
+                    <span>$110</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-lang="footer">&copy; 2024 Sandline Design Co. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --accent-gray: #f4f4f4;
+    --font-main: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header & Nav */
+header {
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--accent-gray);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: var(--text-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Main Layout */
+main {
+    flex: 1;
+    padding: 4rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    color: #333;
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background-color: var(--accent-gray); /* Placeholder loading color */
+}
+
+/* Hero Section (Index) */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Grid Layout (Products) */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    transition: opacity 0.3s;
+}
+
+.product-card:hover {
+    opacity: 0.8;
+}
+
+.product-info {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 5%;
+    border-top: 1px solid var(--accent-gray);
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; }
+    h1 { font-size: 2rem; }
+    nav ul { gap: 1rem; font-size: 0.9rem; }
+}
+
+/* Add to style.css */
+
+.lang-select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: transparent;
+    font-family: var(--font-main);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    outline: none;
+    margin-left: 20px;
+}
+
+.lang-select:hover {
+    border-color: var(--text-color);
+}
