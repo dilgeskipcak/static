@@ -20,7 +20,7 @@ const translations = {
         prod_2: "Oxford Gömlek",
         prod_3: "İpek Elbise",
         prod_4: "Yün Pantolon",
-        footer: "© 2024 Sandline Design Co. Tüm hakları saklıdır. | info@sand-line.com"
+        footer: "© 2026 Sandline Design Co. Tüm hakları saklıdır. | info@sand-line.com"
     },
     en: {
         nav_home: "Home",
@@ -41,7 +41,7 @@ const translations = {
         prod_2: "Oxford Shirt",
         prod_3: "Evening Silk",
         prod_4: "Wool Trousers",
-        footer: "© 2024 Sandline Design Co. All rights reserved. | info@sand-line.com"
+        footer: "© 2026 Sandline Design Co. All rights reserved. | info@sand-line.com"
     },
     nl: {
         nav_home: "Home",
@@ -62,7 +62,7 @@ const translations = {
         prod_2: "Oxford Overhemd",
         prod_3: "Zijden Jurk",
         prod_4: "Wollen Pantalon",
-        footer: "© 2024 Sandline Design Co. Alle rechten voorbehouden. | info@sand-line.com"
+        footer: "© 2026 Sandline Design Co. Alle rechten voorbehouden. | info@sand-line.com"
     }
 };
 
