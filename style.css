@@ -1,4 +1,4 @@
-/* style.css */
+﻿/* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 :root {
@@ -31,13 +31,13 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--accent-gray);
+    flex-wrap: wrap;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: -1px;
-    text-transform: uppercase;
     text-decoration: none;
     color: var(--text-color);
 }

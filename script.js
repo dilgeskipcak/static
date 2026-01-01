@@ -1,4 +1,4 @@
-/* script.js */
+﻿/* script.js */
 
 const translations = {
     tr: {
@@ -6,11 +6,11 @@ const translations = {
         nav_about: "Hakkımızda",
         nav_products: "Koleksiyon",
         hero_title: "Modern Çağ İçin Minimalist Tasarım.",
-        hero_text: "Lorem ipsum dolor sit amet, modaya yön veren çizgiler ve modern dokunuşlar. Sizin için en iyisini tasarlıyoruz.",
+        hero_text: "Modaya yön veren çizgiler ve modern dokunuşlar. Sizin için en iyisini tasarlıyoruz.",
         hero_btn: "Koleksiyonu İncele",
         about_title: "Felsefemiz",
         about_sub1: "İşçilik & Detay",
-        about_text1: "Lorem ipsum dolor sit amet. Her dikişte kaliteyi hissedin. Detaylara verdiğimiz önem, bizi biz yapan en büyük değerdir.",
+        about_text1: " Her dikişte kaliteyi hissedin. Detaylara verdiğimiz önem, bizi biz yapan en büyük değerdir.",
         about_text2: "Sürdürülebilir kumaşlar ve etik üretim anlayışı ile modaya yeni bir soluk getiriyoruz.",
         about_sub2: "Sürdürülebilirlik",
         about_text3: "Gelecek nesiller için doğaya saygılı üretim süreçlerini benimsiyoruz.",
@@ -27,11 +27,11 @@ const translations = {
         nav_about: "About",
         nav_products: "Products",
         hero_title: "Minimalist Design for the Modern Era.",
-        hero_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        hero_text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         hero_btn: "View Collection",
         about_title: "Our Philosophy",
         about_sub1: "Craftsmanship & Detail",
-        about_text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quality in every stitch.",
+        about_text1: "Quality in every stitch.",
         about_text2: "We bring a new breath to fashion with sustainable fabrics and ethical production.",
         about_sub2: "Sustainability",
         about_text3: "We adopt eco-friendly production processes for future generations.",
@@ -48,11 +48,11 @@ const translations = {
         nav_about: "Over Ons",
         nav_products: "Collectie",
         hero_title: "Minimalistisch Design voor het Moderne Tijdperk.",
-        hero_text: "Lorem ipsum dolor sit amet, modieuze lijnen en moderne accenten. Wij ontwerpen het beste voor u.",
+        hero_text: "modieuze lijnen en moderne accenten. Wij ontwerpen het beste voor u.",
         hero_btn: "Bekijk Collectie",
         about_title: "Onze Filosofie",
         about_sub1: "Vakmanschap & Detail",
-        about_text1: "Lorem ipsum dolor sit amet. Voel de kwaliteit in elke steek. Oog voor detail is onze grootste waarde.",
+        about_text1: " Voel de kwaliteit in elke steek. Oog voor detail is onze grootste waarde.",
         about_text2: "We brengen een nieuwe wind in de mode met duurzame stoffen en ethische productie.",
         about_sub2: "Duurzaamheid",
         about_text3: "We hanteren milieuvriendelijke productieprocessen voor toekomstige generaties.",
